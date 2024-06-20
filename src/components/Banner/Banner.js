@@ -12,7 +12,7 @@ const CustomSlide = ({ Subtext, imgSrc, text, buttonLink, buttonText }) => (
   <div
     style={{
       position: "relative",
-      backgroundColor: "#F5F5F3", // Gray background color
+      backgroundColor: "#b2fffe", // Gray background color
       display: "flex",
       justifyContent: "center",
       alignItems: "center", // Center vertically
@@ -30,7 +30,7 @@ const CustomSlide = ({ Subtext, imgSrc, text, buttonLink, buttonText }) => (
         style={{
           marginBottom: "15px",
           fontSize: "1.5rem", // Adjust the font size as needed
-          color: "#000", // Black color
+          color: "#010066", // Blue color
           fontWeight: "700",
         }}
       >
@@ -40,14 +40,14 @@ const CustomSlide = ({ Subtext, imgSrc, text, buttonLink, buttonText }) => (
         style={{
           marginBottom: "25px",
           fontSize: "1.0rem", // Adjust the font size as needed
-          color: "#666", // Gray color
+          color: "#010066", // Gray color
         }}
       >
         {Subtext}
       </p>
 
       <Link to="/about">
-        <button className="bg-primeColor text-white text-lg font-bodyFont w-[185px] h-[50px] hover:bg-black duration-300 font-bold">
+        <button className="bg-[#010066] rounded-2xl text-white text-lg font-bodyFont w-[185px] h-[50px] hover:bg-[7eb6ff] duration-300 font-bold">
           {buttonText}
         </button>
       </Link>
