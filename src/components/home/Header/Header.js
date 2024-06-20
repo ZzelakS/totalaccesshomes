@@ -72,8 +72,8 @@ const Header = () => {
                   <div className="w-full h-full bg-primeColor p-6">
                     <img
                       className="w-28 mb-6"
-                      src={logoLight}
-                      alt="logoLight"
+                      // src={logoLight}
+                      // alt="logoLight"
                     />
                     <ul className="text-gray-200 flex flex-col gap-2">
                       {navBarList.map((item) => (

@@ -16,18 +16,20 @@ const CustomSlide = ({ Subtext, imgSrc, text, buttonLink, buttonText }) => (
       display: "flex",
       justifyContent: "center",
       alignItems: "center", // Center vertically
+      width: "auto",
+      marginLeft: "25px",
     }}
   >
     <div
       style={{
-        maxWidth: "450px", // Adjust the maxWidth as needed
+        maxWidth: "auto", // Adjust the maxWidth as needed
         marginRight: "100px", // Add margin between text/button and image
       }}
     >
       <h1
         style={{
           marginBottom: "15px",
-          fontSize: "2.5rem", // Adjust the font size as needed
+          fontSize: "1.5rem", // Adjust the font size as needed
           color: "#000", // Black color
           fontWeight: "700",
         }}
@@ -37,7 +39,7 @@ const CustomSlide = ({ Subtext, imgSrc, text, buttonLink, buttonText }) => (
       <p
         style={{
           marginBottom: "25px",
-          fontSize: "1.5rem", // Adjust the font size as needed
+          fontSize: "1.0rem", // Adjust the font size as needed
           color: "#666", // Gray color
         }}
       >
@@ -50,7 +52,7 @@ const CustomSlide = ({ Subtext, imgSrc, text, buttonLink, buttonText }) => (
         </button>
       </Link>
     </div>
-    <div style={{ marginLeft: "100px" }}>
+    <div style={{ marginLeft: "80px" }}>
       <Image imgSrc={imgSrc} />
     </div>
   </div>
@@ -65,6 +67,7 @@ const Banner = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     adaptiveHeight: true,
+    adaptiveWidth: true,
     arrows: false,
     beforeChange: (prev, next) => {
       setDocActive(next);
@@ -108,7 +111,7 @@ const Banner = () => {
       {
         breakpoint: 576,
         settings: {
-          dots: true,
+          dots: false,
           appendDots: (dots) => (
             <div
               style={{
@@ -156,23 +159,23 @@ const Banner = () => {
       Subtext:
         "At Total Access, we provide Experienced, Professional, Dependable and Compassionate Care Givers",
       buttonLink: "/offer",
-      buttonText: "Shop Now",
+      buttonText: "Contact Us",
     },
     {
       imgSrc: bannerImgOne,
-      text: "Total Access",
+      text: "Total Access Home Healthcare",
       Subtext:
         "Care Givers who understand that dignified care is a priority for clients.",
-      buttonLink: "/shop",
-      buttonText: "About-us",
+      buttonLink: "/offer",
+      buttonText: "Contact Us",
     },
     {
       imgSrc: bannerImgOne,
-      text: "Dependability, Trustworthiness and Quality Care",
+      text: "First Class Retirement Living",
       Subtext:
         "Explore our premium private care options for your aged loved ones",
       buttonLink: "/offer",
-      buttonText: "Shop Now",
+      buttonText: "Contact Us",
     },
 
     // Add more slides as needed
