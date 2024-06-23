@@ -5,25 +5,33 @@ import {
   bannerImgOne,
   bannerImgTwo,
   bannerImgThree,
+  bestSellerOne,
+  bestSellerTwo,
+  bestSellerThree,
+  bestSellerFour,
 } from "../../assets/images";
 import Image from "../designLayouts/Image";
 
 const CustomSlide = ({ Subtext, imgSrc, text, buttonLink, buttonText }) => (
   <div
+    className="bg-contain bg-center md:bg-no-repeat sm:bg-no-repeat"
     style={{
       position: "relative",
-      backgroundColor: "#b2fffe", // Gray background color
+      backgroundImage: `url(${bestSellerOne})`, // Gray background color
       display: "flex",
       justifyContent: "center",
       alignItems: "center", // Center vertically
       width: "auto",
-      marginLeft: "25px",
+      height: "600px",
+      // marginLeft: "25px",
+      // padding: "15px",
     }}
   >
     <div
       style={{
-        maxWidth: "auto", // Adjust the maxWidth as needed
-        marginRight: "100px", // Add margin between text/button and image
+        // maxWidth: "auto", // Adjust the maxWidth as needed
+        // marginRight: "200px", // Add margin between text/button and image
+        marginTop: "350px",
       }}
     >
       <h1
@@ -52,9 +60,9 @@ const CustomSlide = ({ Subtext, imgSrc, text, buttonLink, buttonText }) => (
         </button>
       </Link>
     </div>
-    <div style={{ marginLeft: "80px" }}>
-      <Image imgSrc={imgSrc} />
-    </div>
+    {/* <div style={{ marginLeft: "10px" }}>
+      {/* <Image imgSrc={imgSrc} /> */}
+    {/* </div> */}
   </div>
 );
 
@@ -155,25 +163,25 @@ const Banner = () => {
   const slides = [
     {
       imgSrc: bannerImgOne,
-      text: "Dependability, Trustworthiness and Quality Care",
-      Subtext:
-        "At Total Access, we provide Experienced, Professional, Dependable and Compassionate Care Givers",
+      // text: "Dependability, Trustworthiness and Quality Care",
+      // Subtext:
+      //   "We provide Experienced, Professional, Dependable and Compassionate Care Givers",
       buttonLink: "/offer",
       buttonText: "Contact Us",
     },
     {
       imgSrc: bannerImgOne,
-      text: "Total Access Home Healthcare",
-      Subtext:
-        "Care Givers who understand that dignified care is a priority for clients.",
+      // text: "Total Access Home Healthcare",
+      // Subtext:
+      //   "Care Givers who understand that dignified care is a priority for clients.",
       buttonLink: "/offer",
       buttonText: "Contact Us",
     },
     {
       imgSrc: bannerImgOne,
-      text: "First Class Retirement Living",
-      Subtext:
-        "Explore our premium private care options for your aged loved ones",
+      // text: "First Class Retirement Living",
+      // Subtext:
+      //   "Explore our premium private care options for your aged loved ones",
       buttonLink: "/offer",
       buttonText: "Contact Us",
     },

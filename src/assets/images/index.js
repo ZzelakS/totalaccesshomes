@@ -15,10 +15,10 @@ import newArrThree from "./products/newArrival/newArrThree.webp";
 import newArrFour from "./products/newArrival/newArrFour.webp";
 
 // Best Sellers
-import bestSellerOne from "./img.jpg";
-import bestSellerTwo from "./img2.jpg";
-import bestSellerThree from "./products/bestSeller/bestSellerThree.webp";
-import bestSellerFour from "./products/bestSeller/bestSellerFour.webp";
+import bestSellerOne from "./img2.jpg";
+import bestSellerTwo from "../images/products/bestSeller/medication.jpg";
+import bestSellerThree from "./products/bestSeller/err.jpg";
+import bestSellerFour from "./products/bestSeller/house.jpg";
 import imprimante1 from "./products/bestSeller/imprimante1.webp";
 import imprimante2 from "./products/bestSeller/imprimante2.webp";
 import imprimante4 from "./products/bestSeller/imprimante4.webp";
