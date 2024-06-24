@@ -24,6 +24,7 @@ import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Products from "./pages/Shop/Shop";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = () => {
   return (
