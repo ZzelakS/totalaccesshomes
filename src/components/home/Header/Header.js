@@ -7,6 +7,7 @@ import { logo, logoLight } from "../../../assets/images";
 import Image from "../../designLayouts/Image";
 import { navBarList } from "../../../constants";
 import Flex from "../../designLayouts/Flex";
+import '../../../constants/style.css'
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(true);
@@ -32,7 +33,7 @@ const Header = () => {
         <Flex className="flex items-center justify-between h-full">
           <Link to="/">
             <div>
-              <Image className="w-17 h-12 object-fit" imgSrc={logo} />
+              <Image className="logo" imgSrc={logo} />
             </div>
           </Link>
           <div>
@@ -47,7 +48,7 @@ const Header = () => {
                   {navBarList.map(({ _id, title, link }) => (
                     <NavLink
                       key={_id}
-                      className="flex font-normal hover:font-bold w-20 h-6 justify-center items-center px-12 text-base text-[#767676] hover:underline underline-offset-[4px] decoration-[1px] hover:text-[#262626] md:border-r-[2px] border-r-gray-300 hoverEffect last:border-r-0"
+                      className="flex font-normal hover:font-bold w-20 h-6 justify-center items-center px-12 text-base text-[#010066] hover:underline underline-offset-[4px] decoration-[1px] hover:text-[#010066] md:border-r-[2px] border-r-gray-300 hoverEffect last:border-r-0"
                       to={link}
                       state={{ data: location.pathname.split("/")[1] }}
                     >
@@ -69,7 +70,7 @@ const Header = () => {
                   transition={{ duration: 0.5 }}
                   className="w-[80%] h-full relative"
                 >
-                  <div className="w-full h-full bg-primeColor p-6">
+                  <div className="w-full h-full bg-[#010066] p-6">
                     <img
                       className="w-28 mb-6"
                       // src={logoLight}

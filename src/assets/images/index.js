@@ -19,6 +19,9 @@ import bestSellerOne from "./img2.jpg";
 import bestSellerTwo from "../images/products/bestSeller/medication.jpg";
 import bestSellerThree from "./products/bestSeller/err.jpg";
 import bestSellerFour from "./products/bestSeller/house.jpg";
+import bestSellerFive from "./products/bestSeller/home.jpg";
+import bestSellerSix from "./products/bestSeller/ill.jpg";
+import bestSellerSeven from "./products/bestSeller/house.jpg";
 import imprimante1 from "./products/bestSeller/imprimante1.webp";
 import imprimante2 from "./products/bestSeller/imprimante2.webp";
 import imprimante4 from "./products/bestSeller/imprimante4.webp";
@@ -96,6 +99,9 @@ export {
   bestSellerTwo,
   bestSellerThree,
   bestSellerFour,
+  bestSellerFive,
+  bestSellerSix,
+  bestSellerSeven,
   imprimante1,
   imprimante2,
   imprimante4,

@@ -6,6 +6,8 @@ import {
   bestSellerTwo,
   bestSellerThree,
   bestSellerFour,
+  bestSellerFive,
+  bestSellerSix,
 } from "../../../assets/images/index";
 
 const BestServices = () => {
@@ -36,9 +38,9 @@ const BestServices = () => {
           img={bestSellerThree}
           productName="Errands and Escort Services"
           // price="25.00"
-          color="Mixed"
+          color="Our trained care givers fill in as guides and messengers, ensuring the comfort and safety of our patients whenever they step out with them."
           // badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          // des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
           _id="1014"
@@ -51,16 +53,16 @@ const BestServices = () => {
         />
         <Product
           _id="1011"
-          img={bestSellerOne}
+          img={bestSellerFive}
           productName="Retirement Home"
           // price="35.00"
-          color="Blank and White"
+          color="Senior Citizens get direct access to a dynamic community where they become an active part, ensuring they enjoy their retirement to the fullest."
           // badge={true}
           // des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
           _id="1012"
-          img={bestSellerTwo}
+          img={bestSellerSix}
           productName="Care for the terminally ill"
           // price="180.00"
           color="Our patient-centered approach caters to every need of our patients, providing the highest level of comfort and quality of life; enabling them to resolve individual issues."
@@ -72,9 +74,9 @@ const BestServices = () => {
           img={bestSellerThree}
           productName="Reading to the Visually Impaired"
           // price="25.00"
-          color="Mixed"
-          badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          color="Our trained care givers can read to patients on request and engage them in mentally stimulating activities, the perfect fusion of compassion and professionalism."
+          // badge={true}
+          // des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
           _id="1014"

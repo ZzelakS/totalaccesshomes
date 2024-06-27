@@ -36,7 +36,7 @@ const Product = (props) => {
   return (
     <div className="w-full relative group drop-shadow-lg">
       <div className="max-w-80 max-h-80 relative overflow-y-hidden ">
-        <div onClick={handleProductDetails}>
+        <div>
           <Image className="w-full h-full" imgSrc={props.img} />
         </div>
         <div className="absolute top-6 left-8">
@@ -92,7 +92,7 @@ const Product = (props) => {
           </ul>
         </div>
       </div>
-      <div className="max-w-80 py-6 flex flex-col gap-1 border-[1px] border-t-0 px-4 border-[#010066] shadow-lg">
+      <div className="max-w-80 py-6 flex flex-col gap-1 border-t-0 px-4 border-[#010066] rounded-2xl shadow-lg">
         <div className="flex items-center justify-between font-titleFont">
           <h2 className="text-lg text-[#010066] font-bold">
             {props.productName}

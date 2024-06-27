@@ -10,8 +10,8 @@ import {
 
 const BestSellers = () => {
   return (
-    <div className="w-full pb-20">
-      <Heading heading="Our Bestsellers" />
+    <div className="w-full pb-20 text-[#010066]">
+      <Heading heading="Our Services" />
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-2 xl:grid-cols-2 gap-10">
         <Product
           _id="1011"
@@ -19,7 +19,7 @@ const BestSellers = () => {
           productName="We cater to the every need of senior citizens"
           // price="35.00"
           // color="Blank and White"
-          badge={true}
+          // badge={true}
           // des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
