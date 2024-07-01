@@ -11,11 +11,11 @@ import ShopNow from "../../designLayouts/buttons/ShopNow";
 const Sale = () => {
   return (
     <div className="py-20 flex flex-col md:flex-row items-center justify-between gap-4 lg:gap-10">
-      <div className="bg-[#f3f3f3] w-full md:w-2/3 lg:w-1/2 h-full flex flex-col justify-center items-center text-[#010066]">
+      <div className="bg-[#f3f3f3] w-full md:w-2/3 lg:w-1/2 h-full flex flex-col justify-center items-center text-[#010066] rounded-2xl drop-shadow-lg">
         <div className="aspect-w-4 aspect-h-3 w-full mb-4">
           <Image className="h-full w-full object-cover" imgSrc={saleImgOne} />
         </div>
-        <div className="text-left h-140 md:h-200 lg:h-260 w-full mx-4 ">
+        <div className="text-left h-140 md:h-200 lg:h-260 w-full mx-4">
           <div className="mx-8">
             <h3 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-6">
             Professional & Compassionate Caregivers
@@ -36,14 +36,14 @@ const Sale = () => {
 
       <div className="w-full md:w-2/3 lg:w-1/2 h-auto flex flex-col gap-4 lg:gap-10">
         <div className="h-1/2 w-full">
-          <Link to="/shop">
-            <Image className="h-full w-full object-cover" imgSrc={saleImgTwo} />
+          <Link to="#">
+            <Image className="h-full w-full object-cover rounded-2xl drop-shadow-lg" imgSrc={saleImgTwo} />
           </Link>
         </div>
         <div className="h-1/2 w-full">
-          <Link to="/shop">
+          <Link to="#">
             <Image
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover rounded-2xl drop-shadow-lg"
               imgSrc={saleImgThree}
             />
           </Link>

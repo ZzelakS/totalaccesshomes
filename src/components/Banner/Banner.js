@@ -5,7 +5,7 @@ import bestSellerThree from "../../assets/images/img.jpg";
 
 export default function Banner() {
   return (
-    <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+    <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 object-contain">
       <Carousel slideInterval={5000}>
         <img src={bestSellerOne} />
         <img src={bestSellerTwo} />

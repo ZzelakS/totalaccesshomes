@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineCopyright } from "react-icons/ai";
-import Afri from "./Afri.png"
+import Afri from "./Afripace.png"
 
 const FooterBottom = () => {
   return (
